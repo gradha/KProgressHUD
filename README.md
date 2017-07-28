@@ -1,22 +1,22 @@
 # KProgressHUD
 [![Apache License](https://img.shields.io/badge/license-Apache-blue.svg)](http://opensource.org/licenses/Apache-2.0)
-[ ![Download](https://api.bintray.com/packages/kaopiz/KProgressHUD/KProgressHUD/images/download.svg) ](https://bintray.com/kaopiz/KProgressHUD/KProgressHUD/_latestVersion)
+[ ![Download](https://api.bintray.com/packages/gradha/KProgressHUD/KProgressHUD/images/download.svg) ](https://bintray.com/gradha/KProgressHUD/KProgressHUD/_latestVersion)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-KProgressHUD-green.svg?style=true)](https://android-arsenal.com/details/1/2975)
 
 An implement of ProgressHUD for Android, similar to MBProgressHUD, SVProgressHUD.
 Inspired by [MBProgressHUD](https://github.com/jdg/MBProgressHUD) for iOS.
 
-![](https://raw.githubusercontent.com/Kaopiz/KProgressHUD/master/demo/screenshots/screencast.gif)
+![](https://raw.githubusercontent.com/gradha/KProgressHUD/master/demo/screenshots/screencast.gif)
 
 <!---
-[![](https://raw.githubusercontent.com/Kaopiz/KProgressHUD/master/demo/screenshoots/thumb01.png)](https://github.com/Kaopiz/KProgressHUD/blob/master/demo/screenshoots/image01.png?raw=true)
-[![](https://raw.githubusercontent.com/Kaopiz/KProgressHUD/master/demo/screenshoots/thumb02.png)](https://github.com/Kaopiz/KProgressHUD/blob/master/demo/screenshoots/image02.png?raw=true)
-[![](https://raw.githubusercontent.com/Kaopiz/KProgressHUD/master/demo/screenshoots/thumb03.png)](https://github.com/Kaopiz/KProgressHUD/blob/master/demo/screenshoots/image03.png?raw=true)
-[![](https://raw.githubusercontent.com/Kaopiz/KProgressHUD/master/demo/screenshoots/thumb04.png)](https://github.com/Kaopiz/KProgressHUD/blob/master/demo/screenshoots/image04.png?raw=true)
-[![](https://raw.githubusercontent.com/Kaopiz/KProgressHUD/master/demo/screenshoots/thumb05.png)](https://github.com/Kaopiz/KProgressHUD/blob/master/demo/screenshoots/image05.png?raw=true)
-[![](https://raw.githubusercontent.com/Kaopiz/KProgressHUD/master/demo/screenshoots/thumb06.png)](https://github.com/Kaopiz/KProgressHUD/blob/master/demo/screenshoots/image06.png?raw=true)
-[![](https://raw.githubusercontent.com/Kaopiz/KProgressHUD/master/demo/screenshoots/thumb07.png)](https://github.com/Kaopiz/KProgressHUD/blob/master/demo/screenshoots/image07.png?raw=true)
-[![](https://raw.githubusercontent.com/Kaopiz/KProgressHUD/master/demo/screenshoots/thumb08.png)](https://github.com/Kaopiz/KProgressHUD/blob/master/demo/screenshoots/image08.png?raw=true)
+[![](https://raw.githubusercontent.com/gradha/KProgressHUD/master/demo/screenshoots/thumb01.png)](https://github.com/gradha/KProgressHUD/blob/master/demo/screenshoots/image01.png?raw=true)
+[![](https://raw.githubusercontent.com/gradha/KProgressHUD/master/demo/screenshoots/thumb02.png)](https://github.com/gradha/KProgressHUD/blob/master/demo/screenshoots/image02.png?raw=true)
+[![](https://raw.githubusercontent.com/gradha/KProgressHUD/master/demo/screenshoots/thumb03.png)](https://github.com/gradha/KProgressHUD/blob/master/demo/screenshoots/image03.png?raw=true)
+[![](https://raw.githubusercontent.com/gradha/KProgressHUD/master/demo/screenshoots/thumb04.png)](https://github.com/gradha/KProgressHUD/blob/master/demo/screenshoots/image04.png?raw=true)
+[![](https://raw.githubusercontent.com/gradha/KProgressHUD/master/demo/screenshoots/thumb05.png)](https://github.com/gradha/KProgressHUD/blob/master/demo/screenshoots/image05.png?raw=true)
+[![](https://raw.githubusercontent.com/gradha/KProgressHUD/master/demo/screenshoots/thumb06.png)](https://github.com/gradha/KProgressHUD/blob/master/demo/screenshoots/image06.png?raw=true)
+[![](https://raw.githubusercontent.com/gradha/KProgressHUD/master/demo/screenshoots/thumb07.png)](https://github.com/gradha/KProgressHUD/blob/master/demo/screenshoots/image07.png?raw=true)
+[![](https://raw.githubusercontent.com/gradha/KProgressHUD/master/demo/screenshoots/thumb08.png)](https://github.com/gradha/KProgressHUD/blob/master/demo/screenshoots/image08.png?raw=true)
 -->
 
 ## Compatibility
@@ -31,7 +31,7 @@ Include this in your module `build.gradle`
 ```
 dependencies {
     // Other dependencies
-    compile 'com.kaopiz:kprogresshud:1.1.0'
+    compile 'es.elhaso:kprogresshud:1.1.0'
 }
 ```
 
@@ -77,10 +77,10 @@ KProgressHUD.create(MainActivity.this)
 ```
 The custom view can implement `Determinate` or `Indeterminate`, which make the HUD treats this view like the default determinate or indeterminate implementations, not required.
 
-See [**Javadocs**](http://kaopiz.github.io/KProgressHUD/) or [**sample**](https://github.com/Kaopiz/KProgressHUD/tree/master/demo/src/main) for more information.
+See [**Javadocs**](http://gradha.github.io/KProgressHUD/) or [**sample**](https://github.com/gradha/KProgressHUD/tree/master/demo/src/main) for more information.
 
 ## Contributing
-1. Fork it ( https://github.com/Kaopiz/KProgressHUD/fork )
+1. Fork it ( https://github.com/gradha/KProgressHUD/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

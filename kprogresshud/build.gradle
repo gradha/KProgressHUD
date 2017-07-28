@@ -47,20 +47,20 @@ ext {
     bintrayRepo = 'KProgressHUD'
     bintrayName = 'KProgressHUD'
 
-    publishedGroupId = 'com.kaopiz'
+    publishedGroupId = 'es.elhaso'
     libraryName = 'kprogresshud'
     artifact = 'kprogresshud'
 
     libraryDescription = 'A customizable ProgressHUD for Android'
 
-    siteUrl = 'http://kaopiz.github.io/KProgressHUD/'
-    gitUrl = 'https://github.com/Kaopiz/KProgressHUD'
+    siteUrl = "https://github.com/gradha/KProgressHUD"
+    gitUrl = "https://github.com/gradha/KProgressHUD"
 
-    libraryVersion = '1.1.0'
+    libraryVersion = '1.1.1'
 
-    developerId = 'kaopiz'
-    developerName = 'Kaopiz Software Co., Ltd.'
-    developerEmail = 'contact@kaopiz.com'
+    developerId = 'binnietrap7'
+    developerName = 'Grzegorz Adam Hankiewicz'
+    developerEmail = 'bin@gradha.imap.cc'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
@@ -101,7 +101,7 @@ bintray {
     pkg {
         repo = bintrayRepo
         name = bintrayName
-        userOrg = 'kaopiz'
+        userOrg = 'binnietrap7'
         desc = libraryDescription
         websiteUrl = siteUrl
         vcsUrl = gitUrl
@@ -125,7 +125,7 @@ install {
         pom {
             project {
                 packaging 'aar'
-                groupId 'com.kaopiz'
+                groupId 'es.elhaso'
                 artifactId 'kprogresshud'
 
                 // Add your description here
